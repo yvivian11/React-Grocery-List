@@ -1,0 +1,18 @@
+.listItem{
+    border-top: 1px solid black;
+    border-left: 1px solid black;
+    border-right: 1px solid black;
+}
+.listContainer{
+    background-color: #FFF2CC;
+    width: 30%;
+    margin: auto;
+}
+
+.entryForm{
+    background-color: #FFF2CC;
+    border: 1px solid black;
+    width: 97%;
+    color: grey;
+    
+}
