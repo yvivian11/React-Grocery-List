@@ -5,7 +5,7 @@ class List extends React.Component{
     constructor(props){
         super(props)
         this.state = {
-            list: ['milk', 'eggs', 'bananas']
+            list: ['shop', 'vacuum', 'exercise']
         }
     }
     render(){
@@ -33,7 +33,7 @@ class List extends React.Component{
         }
         return(
             <div className="listContainer">
-                <h4>Grocery List</h4>
+                <h4>To Do List</h4>
                 {renderedList}
                 <form  className="listEntry">
                     <input  className="entryForm" defaultValue="add item..." onKeyPress={formSubmit} type="text"></input>
